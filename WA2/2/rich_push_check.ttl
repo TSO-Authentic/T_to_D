@@ -1,0 +1,79 @@
+setdlgpos 500 200
+;-----------------------------------------------------
+; サブルーチン用引数戻り値定義
+; tera termマクロは引数と戻り値が指定できないため
+;-----------------------------------------------------
+sshHost = ""
+sshPW = ""
+
+;-----------------------------------------------------
+; 定数定義
+;-----------------------------------------------------
+getenv 'W3ITDB12' W3ITDB12
+getenv 'PW_WBRK3' PW_WBRK3
+CRLF = #13#10
+
+;-----------------------------------------------------
+; メイン処理
+; ----------------------------------------------------
+;  下記の順でssh接続し稼働確認を行う。
+;  w3itwb12 ⇒ w3itap12 ⇒ w3itdb12
+;-----------------------------------------------------
+
+; ----------------------------------------------------
+;  w3itdb12
+; ----------------------------------------------------
+sshHost = W3ITDB12
+call connectSshWbrk3
+getenv 'OUTPUT_FILE' outputPath
+
+;リッチプッシュ起動確認（株）
+logopen outputPath 0 1
+sendln ": リッチプッシュ起動確認（株）▼▼▼▼▼▼▼▼▼▼▼" CRLF
+call waitWbrk3
+sendln "/sv1/batch/wbrk3/testtool/checkproc_w3pricheqpush.csh"
+call waitWbrk3
+mpause 100
+sendln "exit"
+sendln ": リッチプッシュ起動確認（株）▲▲▲▲▲▲▲▲▲▲▲" CRLF
+
+unlink
+
+end
+logclose
+
+;-----------------------------------------------------				
+; サブルーチン				
+;   引数、戻り値をグローバル変数で宣言する必要がある。				
+;   コーディングミスをしない為、下記のルールを使用する。				
+;       引数：メソッドの最後で初期化				
+;       戻り値：メソッドの最初で初期化				
+;-----------------------------------------------------
+
+;ssh接続				
+:connectSsh				
+	;文字列を継ぎ足す。 			
+	ssh = ""			
+	strconcat ssh sshHost			
+	strconcat ssh sshPW			
+	;ssh接続			
+	connect ssh			
+	wait "Last login"			
+				
+	;引数の初期化			
+	sshHost = ""			
+	sshPW = ""			
+return				
+
+;wbrk3へ接続	
+:connectSshWbrk3	
+	sshPW = PW_WBRK3
+	call connectSsh
+	call waitWbrk3
+return	
+
+;wbrk3ユーザwait	
+:waitWbrk3	
+	mpause 100
+	wait '[wbrk3@'
+return	
