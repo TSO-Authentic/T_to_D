@@ -1,0 +1,81 @@
+setdlgpos 500 200
+
+getenv 'OUTPUT_FILE' outputPath
+getenv 'W3ITDB12' W3ITDB12
+getenv 'PW_ORACLE' PW_ORACLE
+
+connection = 'sqlplus wb3913/wb3913@WBRK31'
+
+query_one = 'TRUNCATE TABLE mpds_status;'
+query_two = 'select count(*) from mpds_status;'
+strOne = 'echo '
+strTwo = ' | xargs'
+
+strconcat W3ITDB12 PW_ORACLE
+connect W3ITDB12
+logopen outputPath 0 1
+
+waitword = 'oracle'
+wait waitword
+typeword = connection
+sendln typeword
+
+waitword = 'SQL WBRK31'
+wait waitword
+typeword = query_one
+sendln typeword
+
+waitword = 'SQL WBRK31'
+wait waitword
+typeword = 'commit;'
+sendln typeword
+
+waitword = 'SQL WBRK31'
+wait waitword
+typeword = query_two
+sendln typeword
+
+strdim lines 5
+i = 0 
+while i < 5  
+    recvln  
+    strcopy inputstr 0 255 lines[i]
+    i = i + 1  
+endwhile
+
+waitword = 'SQL WBRK31'
+wait waitword
+typeword = 'exit'
+sendln typeword
+
+strconcat strOne lines[4]
+strconcat strOne strTwo
+
+waitword = 'oracle'
+wait waitword
+typeword = strOne
+sendln typeword
+
+strdim output 2
+i = 0
+while i < 2
+    recvln
+    strcopy inputstr 0 255 output[i]
+    i = i + 1
+endwhile
+
+str2int val output[1]
+
+if val = 0 then
+    waitword = 'oracle'
+    wait waitword
+    typeword = 'echo "mpds_status is zero." '
+    sendln typeword
+endif
+
+waitword = 'oracle'
+wait waitword
+typeword = 'exit'  
+sendln typeword 
+
+logclose
