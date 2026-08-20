@@ -1,0 +1,3237 @@
+This is the content for creating powerpoint.
+------------------------------------------------
+# Agentic Software Development
+
+## From AI-Assisted Coding to AI-Powered Software Engineering
+
+---
+
+# PART A — WHY ARE WE HERE?
+
+---
+
+## Slide 1 — Software Development Is Changing
+
+### Main Content
+
+Software development has always evolved with better tools:
+
+```text
+Text Editor
+    ↓
+IDE
+    ↓
+Code Completion
+    ↓
+AI Chat
+    ↓
+AI-Assisted Editing
+    ↓
+AI Planning
+    ↓
+AI Agents
+    ↓
+Agentic Software Development
+```
+
+The major change is not simply:
+
+> "AI can write code."
+
+The bigger change is:
+
+> **AI can increasingly participate in the software development process itself.**
+
+### Key Explanation
+
+Traditional AI coding tools primarily help developers perform individual activities.
+
+Modern coding agents can perform a sequence of activities:
+
+* Understand a goal
+* Explore a repository
+* Reason about the implementation
+* Modify multiple files
+* Run tools
+* Execute tests
+* Analyze failures
+* Iterate
+* Report the result
+
+### Takeaway
+
+**The unit of AI assistance is moving from a line of code toward an engineering task.**
+
+---
+
+## Slide 2 — Traditional Software Development
+
+### Main Content
+
+```text
+Requirement
+     ↓
+Developer understands
+     ↓
+Developer designs
+     ↓
+Developer searches code
+     ↓
+Developer implements
+     ↓
+Developer tests
+     ↓
+Developer debugs
+     ↓
+Code Review
+     ↓
+Commit / PR
+     ↓
+CI/CD
+```
+
+The developer is responsible for almost every step.
+
+### Characteristics
+
+* Human-driven
+* Explicit instructions
+* Mostly deterministic tools
+* Developer manually navigates the codebase
+* Developer manually executes commands
+* Developer manually analyzes failures
+
+### Key Idea
+
+Traditional development is fundamentally:
+
+> **Human decides → Human executes → Human verifies**
+
+---
+
+## Slide 3 — AI-Assisted Development
+
+### Main Content
+
+AI becomes a development assistant.
+
+```text
+Developer
+    │
+    ├── Writes code
+    ├── Asks questions
+    ├── Requests explanations
+    ├── Generates code
+    ├── Generates tests
+    └── Requests refactoring
+             │
+             ↓
+           AI
+```
+
+### Examples
+
+* Code completion
+* Explain code
+* Generate a function
+* Generate unit tests
+* Refactor a method
+* Find a possible bug
+* Convert code
+* Generate documentation
+
+### Key Idea
+
+AI accelerates developer activities.
+
+The developer is still primarily responsible for:
+
+> **Understanding → Deciding → Executing → Verifying**
+
+---
+
+## Slide 4 — Agentic Software Development
+
+### Main Content
+
+An AI agent receives a **goal**, not necessarily a detailed sequence of instructions.
+
+```text
+Developer
+    │
+    │ Goal + Constraints
+    ↓
+   Agent
+    │
+    ├── Understand
+    ├── Explore
+    ├── Plan
+    ├── Modify
+    ├── Test
+    ├── Analyze
+    └── Iterate
+```
+
+### Example
+
+Instead of:
+
+> "Create a validation method."
+
+The developer can ask:
+
+> "Add validation for user registration, follow the existing validation pattern, add regression tests, run the relevant tests, and fix any failures."
+
+The agent may determine the intermediate steps.
+
+### Key Idea
+
+**Agentic development is goal-oriented and multi-step.**
+
+---
+
+## Slide 5 — What Makes a Workflow "Agentic"?
+
+### Main Content
+
+A workflow becomes increasingly agentic when AI can:
+
+1. Understand a goal
+2. Access relevant context
+3. Decide intermediate actions
+4. Use tools
+5. Change the environment
+6. Observe results
+7. React to feedback
+8. Iterate toward completion
+
+### Agentic Characteristics
+
+```text
+Goal
+ ↓
+Reasoning
+ ↓
+Action
+ ↓
+Observation
+ ↓
+Feedback
+ ↓
+Iteration
+```
+
+### Important Distinction
+
+Generating code once is not necessarily agentic.
+
+An agentic workflow looks more like:
+
+> **Generate → Execute → Observe → Adapt → Verify**
+
+---
+
+## Slide 6 — Traditional vs AI-Assisted vs Agentic
+
+### Main Content
+
+| Capability                 | Traditional  | AI-Assisted  | Agentic           |
+| -------------------------- | ------------ | ------------ | ----------------- |
+| Human writes code          | High         | High/Medium  | Medium/Low        |
+| AI generates code          | No           | Yes          | Yes               |
+| AI explains code           | No           | Yes          | Yes               |
+| AI understands repository  | Human-driven | Partial      | Stronger          |
+| AI uses tools              | No           | Limited      | Yes               |
+| AI modifies multiple files | Human        | Sometimes    | Common            |
+| AI runs tests              | Human        | Sometimes    | Often             |
+| AI reacts to failures      | Human        | Mostly human | Agent can iterate |
+| Autonomy                   | Low          | Low/Medium   | Medium/High       |
+
+### Takeaway
+
+> **AI-assisted development helps the developer perform a task.**
+
+> **Agentic development allows AI to perform parts of the task.**
+
+---
+
+## Slide 7 — The Evolution of AI-Assisted Development
+
+### Main Content
+
+```text
+Traditional IDE
+      ↓
+Code Completion
+      ↓
+Chat / Ask
+      ↓
+Edit
+      ↓
+Plan
+      ↓
+Agent
+      ↓
+Custom Agents
+      ↓
+Skills + Instructions + Context
+      ↓
+Tools + MCP + External Systems
+      ↓
+Agentic Software Engineering
+```
+
+### Key Explanation
+
+Each stage increases the scope of what AI can do.
+
+```text
+Code Completion
+    = Help me write
+
+Ask
+    = Help me understand
+
+Edit
+    = Help me change
+
+Plan
+    = Help me decide how
+
+Agent
+    = Help me execute
+
+Agentic System
+    = Help me perform an engineering workflow
+```
+
+---
+
+## Slide 8 — Why Is the Industry Moving Toward Agentic Development?
+
+### Main Content
+
+### 1. Software systems are becoming larger
+
+Developers must understand:
+
+* Many modules
+* APIs
+* Dependencies
+* Tests
+* Configuration
+* Infrastructure
+* Documentation
+
+### 2. Coding is only part of development
+
+Developers also spend time on:
+
+* Searching
+* Understanding
+* Debugging
+* Testing
+* Reviewing
+* Documentation
+* Configuration
+
+### 3. AI models are becoming better at reasoning and tool use
+
+### 4. Development environments expose useful tools
+
+Examples:
+
+* File systems
+* Terminals
+* Git
+* GitHub
+* Build systems
+* Test runners
+* APIs
+
+### Key Idea
+
+The opportunity is:
+
+> **Automate parts of the engineering process, not only code generation.**
+
+---
+
+# PART B — UNDERSTAND THE CORE MODES
+
+---
+
+## Slide 9 — The Four Core Interaction Patterns
+
+### Main Content
+
+```text
+Completion
+    ↓
+"Help me write."
+
+Ask
+    ↓
+"Help me understand."
+
+Plan
+    ↓
+"Help me decide how to implement."
+
+Agent
+    ↓
+"Help me implement and verify."
+```
+
+### Important
+
+These modes are not simply four different UI buttons.
+
+They represent different levels of:
+
+* Scope
+* Autonomy
+* Tool usage
+* Responsibility
+* Iteration
+
+---
+
+## Slide 10 — Code Completion
+
+### Main Content
+
+### What is it?
+
+AI predicts or generates code while the developer is writing.
+
+### Best for
+
+* Small functions
+* Boilerplate
+* Repetitive code
+* Simple transformations
+* Test skeletons
+* Common programming patterns
+
+### Example
+
+```text
+Developer:
+
+function calculateTotal(items) {
+
+    // AI suggests implementation
+}
+```
+
+### Mental Model
+
+> **AI as intelligent autocomplete**
+
+### Limitations
+
+Code completion is usually not the right tool for:
+
+* Large architectural changes
+* Repository-wide changes
+* Complex debugging
+* Multi-step workflows
+
+---
+
+## Slide 11 — Ask / Chat
+
+### Main Content
+
+### Purpose
+
+Ask is primarily for:
+
+> **Understanding, investigation, explanation, and discussion.**
+
+### Examples
+
+```text
+Explain this authentication flow.
+
+Why is this function returning null?
+
+Where is user validation implemented?
+
+What happens when this API receives an invalid request?
+
+Which component is responsible for authorization?
+```
+
+### Mental Model
+
+> **AI as a technical consultant**
+
+### Typical Workflow
+
+```text
+Question
+   ↓
+AI investigates available context
+   ↓
+Explanation
+```
+
+The important point is that the interaction is primarily informational.
+
+---
+
+## Slide 12 — Ask: When Should I Use It?
+
+### Use Ask When:
+
+* You don't understand existing code
+* You need to investigate behavior
+* You want architectural explanations
+* You want alternatives
+* You need help debugging
+* You want to understand dependencies
+* You want to ask "why?"
+
+### Example
+
+> "Why does submitting an empty username result in HTTP 500?"
+
+The AI can investigate:
+
+```text
+Controller
+   ↓
+Validation
+   ↓
+Service
+   ↓
+Exception
+   ↓
+Error Handler
+```
+
+### Key Idea
+
+Ask is excellent for **reducing uncertainty before acting**.
+
+---
+
+## Slide 13 — Plan
+
+### Main Content
+
+### What is a Plan?
+
+A Plan is an implementation-oriented analysis of:
+
+> **What needs to change, where it needs to change, and how the change should be approached.**
+
+Example:
+
+```text
+Requirement:
+Add wishlist functionality.
+
+Plan:
+1. Identify current user model
+2. Identify product ownership
+3. Determine persistence pattern
+4. Add wishlist model
+5. Add repository/data access
+6. Add service logic
+7. Add API endpoints
+8. Add validation
+9. Add tests
+10. Run verification
+```
+
+### Key Idea
+
+A plan converts:
+
+> **Requirement → Implementation strategy**
+
+---
+
+## Slide 14 — Why Do We Need a Plan?
+
+### Without Planning
+
+```text
+Requirement
+    ↓
+Start editing
+    ↓
+Discover architecture
+    ↓
+Change more files
+    ↓
+Discover another dependency
+    ↓
+Change again
+    ↓
+Potential rework
+```
+
+### With Planning
+
+```text
+Requirement
+    ↓
+Understand architecture
+    ↓
+Identify affected components
+    ↓
+Design implementation
+    ↓
+Review approach
+    ↓
+Implement
+```
+
+### Benefits
+
+* Reduces unnecessary changes
+* Identifies dependencies
+* Makes assumptions visible
+* Provides a review point
+* Helps estimate scope
+* Makes complex tasks easier to control
+
+---
+
+## Slide 15 — What Information Can a Plan Use?
+
+### Main Content
+
+A useful implementation plan can be based on:
+
+```text
+Requirement
+     +
+Repository structure
+     +
+Existing code
+     +
+Architecture
+     +
+Dependencies
+     +
+Configuration
+     +
+Tests
+     +
+Instructions
+     +
+Documentation
+     ↓
+Implementation Plan
+```
+
+### Important Principle
+
+A plan is only as good as the information available to create it.
+
+> **Poor context → poor plan → poor implementation**
+
+---
+
+## Slide 16 — Can Plan Inspect the Existing Codebase?
+
+### Main Content
+
+Yes, when the relevant Copilot environment provides repository/file context and tools.
+
+A plan can investigate:
+
+* Existing classes/components
+* Existing patterns
+* Dependencies
+* Configuration
+* Tests
+* APIs
+* Similar implementations
+* Project conventions
+
+### Example
+
+Requirement:
+
+> "Add two-factor authentication."
+
+The agent should first discover:
+
+```text
+Current authentication
+       ↓
+User model
+       ↓
+Session/token handling
+       ↓
+Authorization
+       ↓
+Existing security tests
+```
+
+### Key Idea
+
+Planning should be **repository-aware**, not just generic advice.
+
+---
+
+## Slide 17 — What Does a Good AI-Generated Plan Look Like?
+
+### Main Content
+
+A strong plan should identify:
+
+### 1. Goal
+
+What are we trying to achieve?
+
+### 2. Existing architecture
+
+How does the current system work?
+
+### 3. Affected components
+
+Which modules/files/components are likely to change?
+
+### 4. Implementation steps
+
+What should happen and in what order?
+
+### 5. Testing strategy
+
+How will we verify the change?
+
+### 6. Risks
+
+What existing behavior could be affected?
+
+### 7. Assumptions
+
+What does the plan assume?
+
+### Good Plan
+
+> "Modify the existing authentication flow while preserving the current authorization mechanism."
+
+### Weak Plan
+
+> "Add authentication files and update the application."
+
+---
+
+## Slide 18 — Limitations of AI-Generated Plans
+
+### Main Content
+
+A plan is **not automatically a correct architecture decision**.
+
+Potential problems:
+
+* Incorrect assumptions
+* Missing hidden dependencies
+* Misunderstanding business rules
+* Incomplete repository context
+* Wrong interpretation of existing architecture
+* Overengineering
+* Missing edge cases
+
+### Therefore
+
+```text
+AI Plan
+   ↓
+Human Review
+   ↓
+Approved Approach
+   ↓
+Implementation
+```
+
+### Key Principle
+
+> **A plan is a decision-support artifact, not a replacement for engineering judgment.**
+
+---
+
+## Slide 19 — Agent
+
+### Main Content
+
+An Agent goes beyond answering or planning.
+
+It can potentially:
+
+* Explore the repository
+* Determine relevant files
+* Read code
+* Modify code
+* Create files
+* Run commands
+* Run tests
+* Observe errors
+* Make additional changes
+* Iterate
+* Report results
+
+GitHub describes IDE agent mode as allowing Copilot to determine which files to change, offer changes and terminal commands for approval, and iterate to remediate issues until the task is complete.
+
+### Mental Model
+
+> **AI as an engineering worker operating within defined boundaries**
+
+---
+
+## Slide 20 — How an Agent Approaches a Task
+
+### Main Content
+
+Example:
+
+> "Fix the failing login test."
+
+Possible internal workflow:
+
+```text
+1. Understand task
+       ↓
+2. Search repository
+       ↓
+3. Locate failing test
+       ↓
+4. Read authentication code
+       ↓
+5. Identify likely cause
+       ↓
+6. Modify code
+       ↓
+7. Run test
+       ↓
+8. Observe failure
+       ↓
+9. Adjust implementation
+       ↓
+10. Run tests again
+       ↓
+11. Verify result
+```
+
+### Key Idea
+
+The agent is not simply generating a final answer.
+
+It is participating in a **feedback-driven process**.
+
+---
+
+## Slide 21 — Agent: How Does It Decide Which Files to Inspect?
+
+### Main Content
+
+An agent may start with:
+
+```text
+User request
+    ↓
+Search relevant terms
+    ↓
+Identify candidate files
+    ↓
+Read related code
+    ↓
+Follow dependencies
+    ↓
+Inspect tests/configuration
+    ↓
+Build a working context
+```
+
+For example:
+
+> "Fix checkout timeout."
+
+Potential investigation:
+
+```text
+Checkout API
+    ↓
+Checkout Service
+    ↓
+Payment Service
+    ↓
+HTTP Client
+    ↓
+Timeout Configuration
+    ↓
+Tests
+```
+
+### Important
+
+The agent does not need to read every file.
+
+It tries to gather **relevant context**.
+
+---
+
+## Slide 22 — Agent and Multiple Files
+
+### Main Content
+
+A real feature often crosses boundaries.
+
+Example:
+
+> "Add wishlist support."
+
+Possible changes:
+
+```text
+Data Model
+     ↓
+Repository
+     ↓
+Service
+     ↓
+API
+     ↓
+Validation
+     ↓
+Tests
+     ↓
+Documentation
+```
+
+This is where agentic development becomes more valuable than simple code generation.
+
+---
+
+## Slide 23 — Agent and Errors
+
+### Main Content
+
+The important capability is not:
+
+> "Never make mistakes."
+
+It is:
+
+> **Detect → Understand → Correct → Verify**
+
+Example:
+
+```text
+Agent changes code
+       ↓
+Tests fail
+       ↓
+Agent reads failure
+       ↓
+Agent identifies cause
+       ↓
+Agent modifies implementation
+       ↓
+Tests run again
+       ↓
+Pass
+```
+
+### Key Idea
+
+Errors become **feedback for the next action**.
+
+---
+
+## Slide 24 — Ask vs Plan vs Agent
+
+### Main Content
+
+|                      | Ask                                    | Plan                                        | Agent                |
+| -------------------- | -------------------------------------- | ------------------------------------------- | -------------------- |
+| Primary purpose      | Understand                             | Design approach                             | Execute task         |
+| Reads code           | Yes, when context available            | Yes                                         | Yes                  |
+| Modifies code        | Usually not the goal                   | Usually not the goal                        | Yes                  |
+| Uses tools           | Limited/available depending on surface | Can inspect context/tools depending on mode | Yes                  |
+| Multi-step execution | Low                                    | Planning-oriented                           | High                 |
+| Iteration            | Conversation                           | Plan refinement                             | Execution loop       |
+| Autonomy             | Low                                    | Low/Medium                                  | Medium/High          |
+| Human role           | Ask/review                             | Approve approach                            | Direct/review/verify |
+
+### Mental Model
+
+```text
+ASK
+Understand
+
+PLAN
+Understand + Design
+
+AGENT
+Understand + Design + Execute + Verify + Iterate
+```
+
+---
+
+## Slide 25 — Shopping Website Example
+
+### Requirement
+
+> "Add a wishlist feature to an existing shopping website."
+
+### Ask
+
+> "How does the current user/product relationship work, and where should wishlist functionality integrate?"
+
+**Purpose:**
+
+Understand the existing system.
+
+---
+
+### Plan
+
+> "Create an implementation plan for adding wishlist functionality following the existing architecture."
+
+**Purpose:**
+
+Determine the implementation approach.
+
+---
+
+### Agent
+
+> "Implement wishlist functionality, add tests, run the relevant test suite, and fix failures."
+
+**Purpose:**
+
+Execute the work.
+
+---
+
+## Slide 26 — The Progression
+
+### Main Content
+
+```text
+                 SAME REQUIREMENT
+
+                       │
+                       ↓
+
+             "How does this work?"
+                       │
+                       ↓
+                      ASK
+                       │
+                 Understanding
+                       │
+                       ↓
+             "How should we change it?"
+                       │
+                       ↓
+                     PLAN
+                       │
+                  Design/Approach
+                       │
+                       ↓
+               "Implement it."
+                       │
+                       ↓
+                    AGENT
+                       │
+             Execute + Verify
+```
+
+### Takeaway
+
+> **Ask reduces uncertainty.**
+
+> **Plan reduces implementation uncertainty.**
+
+> **Agent reduces manual execution effort.**
+
+---
+
+# PART C — HOW AGENTS BECOME USEFUL
+
+---
+
+## Slide 27 — An Agent Is More Than a Model
+
+### Main Content
+
+A useful agentic system combines:
+
+```text
+                 Model
+                   │
+          ┌────────┼────────┐
+          ↓        ↓        ↓
+      Context  Instructions Skills
+          │        │        │
+          └────────┼────────┘
+                   ↓
+                 Agent
+                   │
+                   ↓
+                 Tools
+                   │
+                   ↓
+              Environment
+                   │
+                   ↓
+                Feedback
+```
+
+### Key Idea
+
+> **The model provides general intelligence; the surrounding system gives that intelligence context, capabilities, constraints, and workflow.**
+
+---
+
+## Slide 28 — Instructions
+
+### Main Content
+
+Instructions are persistent rules or guidance that tell Copilot how to work.
+
+Examples:
+
+```text
+Follow the existing architecture.
+
+Use the existing error-handling pattern.
+
+Always write tests for new business logic.
+
+Do not introduce new dependencies without justification.
+
+Do not modify production configuration unless explicitly requested.
+```
+
+GitHub currently supports several instruction scopes, including repository-wide and path-specific instructions, with support varying by Copilot surface.
+
+---
+
+## Slide 29 — Why Instructions Matter
+
+### Without Instructions
+
+```text
+Agent
+   ↓
+Generic solution
+```
+
+### With Instructions
+
+```text
+Agent
+   ↓
+Project conventions
+   ↓
+Project-specific solution
+```
+
+### Instructions can encode
+
+* Coding conventions
+* Architecture rules
+* Testing standards
+* Build commands
+* Deployment restrictions
+* Security requirements
+* Naming conventions
+* Framework preferences
+
+### Key Principle
+
+> **Instructions turn generic AI behavior into project-aware behavior.**
+
+---
+
+## Slide 30 — Prompt vs Instruction
+
+### Main Content
+
+| Prompt                 | Instruction                               |
+| ---------------------- | ----------------------------------------- |
+| Usually task-specific  | Usually persistent                        |
+| "Implement login"      | "Use the existing authentication pattern" |
+| Describes current task | Defines working rules                     |
+| User provides it       | Team/project can provide it               |
+| Temporary              | Reusable                                  |
+
+### Simple Mental Model
+
+> **Prompt = What do I want now?**
+
+> **Instruction = How should you work in this environment?**
+
+---
+
+## Slide 31 — Example: Project Instructions
+
+### Main Content
+
+Imagine a repository contains:
+
+```text
+.github/
+    copilot-instructions.md
+```
+
+Instructions:
+
+```text
+- Follow the existing layered architecture.
+- Prefer constructor injection.
+- Do not introduce Lombok.
+- Use the existing logging framework.
+- Write unit tests for business logic.
+- Use the project's existing test framework.
+- Do not modify database migration files unless explicitly requested.
+- Run the standard test command before considering implementation complete.
+```
+
+### Result
+
+When an agent works on the project, these rules can guide its implementation.
+
+### Important
+
+Instructions do not make the agent infallible.
+
+They **constrain and guide behavior**.
+
+---
+
+## Slide 32 — Good vs Bad Instructions
+
+### Good
+
+> "Use the existing error-handling mechanism instead of creating a new global exception framework."
+
+Why?
+
+* Specific
+* Actionable
+* Project-oriented
+
+### Bad
+
+> "Write good code."
+
+Why?
+
+* Ambiguous
+* Difficult to verify
+* No concrete behavior
+
+### Good
+
+> "For business logic changes, add or update unit tests using the project's existing test framework."
+
+### Bad
+
+> "Always make everything fully tested."
+
+---
+
+## Slide 33 — Custom Agents
+
+### Main Content
+
+A custom agent is a specialized version of an agent designed for a recurring role or workflow.
+
+Examples:
+
+```text
+Code Review Agent
+Security Review Agent
+Testing Agent
+Documentation Agent
+Bug Investigation Agent
+Architecture Agent
+```
+
+GitHub describes custom agents as specialized versions of Copilot agents that can be tailored to workflows, coding conventions, tools, and MCP servers.
+
+---
+
+## Slide 34 — Why Create Custom Agents?
+
+### Main Content
+
+Without a custom agent:
+
+```text
+Every task
+    ↓
+Repeat the same instructions
+    ↓
+"Act as a security reviewer..."
+    ↓
+"Check OWASP..."
+    ↓
+"Check authentication..."
+```
+
+With a custom agent:
+
+```text
+Security Review Agent
+        ↓
+Security expertise
+        ↓
+Security workflow
+        ↓
+Security tools
+```
+
+### Benefits
+
+* Reusable expertise
+* Consistent behavior
+* Standardized workflow
+* Team conventions
+* Controlled tools
+* Reduced repeated prompting
+
+---
+
+## Slide 35 — Custom Agent Example: Code Review Agent
+
+### Purpose
+
+Review code for quality and maintainability.
+
+### Responsibilities
+
+```text
+1. Understand requirement
+2. Inspect changes
+3. Check architecture
+4. Check coding standards
+5. Check error handling
+6. Check tests
+7. Check performance
+8. Report findings
+```
+
+### Should NOT
+
+* Automatically rewrite everything
+* Introduce unrelated refactoring
+* Change architecture without justification
+
+### Example Request
+
+> "Review this pull request for correctness, maintainability, security, and test coverage."
+
+---
+
+## Slide 36 — Custom Agent Example: Testing Agent
+
+### Purpose
+
+Improve software quality through systematic testing.
+
+### Responsibilities
+
+```text
+Requirement
+    ↓
+Identify scenarios
+    ↓
+Identify edge cases
+    ↓
+Create/update tests
+    ↓
+Run tests
+    ↓
+Analyze failures
+    ↓
+Report coverage gaps
+```
+
+### Should NOT
+
+* Modify production behavior merely to make tests pass
+* Delete failing tests
+* Ignore legitimate failures
+
+### Example
+
+> "Analyze the new checkout functionality and identify missing unit and integration test cases."
+
+---
+
+## Slide 37 — Custom Agent Example: Security Agent
+
+### Purpose
+
+Perform security-focused analysis.
+
+### Responsibilities
+
+* Authentication
+* Authorization
+* Input validation
+* Injection risks
+* Secrets
+* Sensitive data
+* Access control
+* Dependency concerns
+* Security configuration
+
+### Should NOT
+
+* Assume security is guaranteed
+* Automatically approve risky changes
+* Replace formal security testing for high-risk systems
+
+### Example
+
+> "Review this authentication implementation for common security weaknesses and explain the risk and remediation."
+
+---
+
+## Slide 38 — Skills
+
+### Main Content
+
+A skill is a reusable set of instructions, resources, and/or scripts that teaches an agent how to perform a specialized task.
+
+GitHub describes agent skills as folders containing instructions, scripts, and resources that can be loaded when relevant.
+
+### Mental Model
+
+> **Skill = reusable procedure + expertise**
+
+Examples:
+
+```text
+Testing Skill
+Code Review Skill
+Security Skill
+API Design Skill
+Documentation Skill
+Database Migration Skill
+```
+
+---
+
+## Slide 39 — Instruction vs Skill vs Agent
+
+### Main Content
+
+This distinction is essential.
+
+```text
+Instruction
+"What rules should I follow?"
+
+Skill
+"How should this particular task be performed?"
+
+Agent
+"What role am I performing and what responsibilities do I have?"
+```
+
+### Example
+
+```text
+Instruction:
+Use the existing testing framework.
+
+Skill:
+Systematic process for designing and running tests.
+
+Testing Agent:
+Specialist responsible for software testing.
+```
+
+GitHub recommends using simple, broadly applicable rules as custom instructions and more detailed task-specific procedures as skills.
+
+---
+
+## Slide 40 — Skills Can Be Reused
+
+### Main Content
+
+```text
+                Testing Skill
+                     │
+          ┌──────────┼──────────┐
+          ↓          ↓          ↓
+     Developer     Testing    Review
+       Agent        Agent      Agent
+```
+
+Another example:
+
+```text
+                Security Skill
+                     │
+             ┌───────┴───────┐
+             ↓               ↓
+        Developer        Security
+           Agent           Agent
+```
+
+### Benefit
+
+Skills create **reusable AI capabilities** rather than one-off prompts.
+
+---
+
+## Slide 41 — Context / References
+
+### Main Content
+
+An AI system needs relevant information to reason effectively.
+
+Potential context:
+
+```text
+Current file
+Open files
+Repository
+Related source code
+Configuration
+Documentation
+Architecture
+Tests
+Instructions
+Skills
+Issues
+Pull requests
+Git history
+External documentation
+MCP resources
+```
+
+### Key Principle
+
+> **Context determines what the agent knows about the problem.**
+
+---
+
+## Slide 42 — "AI Is Only as Good as the Context It Can Access"
+
+### Main Content
+
+Consider this requirement:
+
+> "Add caching to the product service."
+
+Without context, the agent may choose:
+
+```text
+Generic caching strategy
+```
+
+With repository context, it may discover:
+
+```text
+Existing cache abstraction
+Existing configuration
+Existing expiration policy
+Existing monitoring
+Existing tests
+```
+
+### Therefore
+
+```text
+Better Context
+      ↓
+Better Understanding
+      ↓
+Better Decisions
+      ↓
+Better Implementation
+```
+
+### Important
+
+More context is not always better.
+
+The goal is:
+
+> **Relevant context, not maximum context.**
+
+---
+
+## Slide 43 — Context Engineering
+
+### Main Content
+
+Prompt Engineering asks:
+
+> "How should I phrase my request?"
+
+Context Engineering asks:
+
+> "What information should the AI have available to make a good decision?"
+
+### Context Engineering includes
+
+* Repository organization
+* Documentation
+* Architecture diagrams
+* API specifications
+* Database schemas
+* Coding conventions
+* Instructions
+* Skills
+* Examples
+* Test strategy
+* Issue/PR context
+* Relevant external knowledge
+
+---
+
+## Slide 44 — Designing an AI-Friendly Repository
+
+### Main Content
+
+A repository that is easy for humans to understand is often easier for AI agents to understand.
+
+Useful assets:
+
+```text
+README
+Architecture documentation
+CONTRIBUTING guide
+Build instructions
+Test instructions
+Coding conventions
+API documentation
+Database documentation
+Examples
+Decision records
+Copilot instructions
+Skills
+```
+
+### Example
+
+```text
+repository/
+│
+├── README.md
+├── ARCHITECTURE.md
+├── CONTRIBUTING.md
+├── docs/
+│   ├── api/
+│   └── architecture/
+│
+├── .github/
+│   ├── copilot-instructions.md
+│   ├── instructions/
+│   ├── agents/
+│   └── skills/
+```
+
+### Takeaway
+
+> **Repository quality becomes part of AI productivity.**
+
+---
+
+## Slide 45 — Prompt Engineering for Agents
+
+### Main Content
+
+### Weak
+
+> Fix this bug.
+
+### Better
+
+> Investigate why users receive HTTP 500 when submitting an empty username.
+
+### Agent-oriented
+
+> Investigate why users receive HTTP 500 when submitting an empty username. Identify the root cause, inspect related validation and exception-handling code, implement a minimal fix, add regression tests, run the relevant tests, and summarize the changes.
+
+### Why the third is stronger
+
+It specifies:
+
+```text
+Goal
++
+Investigation
++
+Scope
++
+Constraints
++
+Implementation
++
+Testing
++
+Expected output
+```
+
+---
+
+## Slide 46 — A Formula for Agent Prompts
+
+### Main Content
+
+A useful agent prompt can contain:
+
+```text
+GOAL
+What should be achieved?
+
+CONTEXT
+What should the agent understand?
+
+SCOPE
+What should it change?
+
+CONSTRAINTS
+What must it avoid?
+
+PROCESS
+What should it investigate or verify?
+
+SUCCESS CRITERIA
+How do we know it is complete?
+
+OUTPUT
+What should it report?
+```
+
+### Example
+
+> Implement the requested feature.
+
+Becomes:
+
+> Implement the requested feature in the existing architecture. Reuse existing patterns, avoid unrelated refactoring, add appropriate tests, run the relevant test suite, fix failures caused by your changes, and summarize the files changed and verification performed.
+
+---
+
+## Slide 47 — Tools
+
+### Main Content
+
+An agent becomes powerful when it can interact with its environment.
+
+Possible tools:
+
+```text
+Search
+Read
+Edit
+Terminal
+Build
+Test
+Git
+GitHub
+APIs
+Databases
+Documentation
+Browser/Web
+MCP
+```
+
+### Chatbot
+
+```text
+Question
+ ↓
+Answer
+```
+
+### Agent
+
+```text
+Goal
+ ↓
+Reason
+ ↓
+Use Tool
+ ↓
+Observe Result
+ ↓
+Reason
+ ↓
+Use Tool
+ ↓
+Verify
+```
+
+---
+
+## Slide 48 — Why Tools Change Everything
+
+### Main Content
+
+Suppose the user says:
+
+> "Fix the failing login test."
+
+A chatbot may say:
+
+> "Check your authentication configuration."
+
+An agent with tools can potentially:
+
+```text
+Search test
+   ↓
+Read test
+   ↓
+Find authentication implementation
+   ↓
+Read configuration
+   ↓
+Modify code
+   ↓
+Run test
+   ↓
+Observe failure
+   ↓
+Modify again
+   ↓
+Run test
+```
+
+### Key Idea
+
+> **Tools turn the AI from an information generator into an environment-interacting system.**
+
+---
+
+## Slide 49 — Agentic Loop
+
+### Main Content
+
+```text
+┌───────────────┐
+│    Observe    │
+└───────┬───────┘
+        ↓
+┌───────────────┐
+│    Reason     │
+└───────┬───────┘
+        ↓
+┌───────────────┐
+│     Plan      │
+└───────┬───────┘
+        ↓
+┌───────────────┐
+│      Act      │
+└───────┬───────┘
+        ↓
+┌───────────────┐
+│    Verify     │
+└───────┬───────┘
+        ↓
+   Success?
+    ↙     ↘
+  No       Yes
+  ↓         ↓
+Iterate     Done
+  │
+  └────→ Observe
+```
+
+### Key Idea
+
+The agent does not necessarily know the entire correct path in advance.
+
+It learns from the environment through feedback.
+
+---
+
+## Slide 50 — One-Shot Generation vs Agentic Loop
+
+### One-shot
+
+```text
+Prompt
+ ↓
+Generated Code
+ ↓
+Developer checks
+```
+
+### Agentic
+
+```text
+Goal
+ ↓
+Explore
+ ↓
+Plan
+ ↓
+Change
+ ↓
+Run
+ ↓
+Observe
+ ↓
+Fix
+ ↓
+Run
+ ↓
+Verify
+```
+
+### Why This Matters
+
+Tests, compiler errors, logs, command output, and repository state become **feedback signals**.
+
+---
+
+# PART D — THE BIGGER ECOSYSTEM
+
+---
+
+## Slide 51 — Memory and State
+
+### Main Content
+
+Agents can operate with several forms of state:
+
+```text
+Conversation State
+        +
+Task State
+        +
+Repository State
+        +
+Instructions
+        +
+Skills
+        +
+Intermediate Results
+        +
+Persistent Project Knowledge
+```
+
+### Important Distinction
+
+Not everything an agent sees is necessarily permanently remembered.
+
+Different systems can maintain:
+
+* Context during the current task
+* Conversation history
+* Repository information
+* Persistent configuration
+* Project knowledge
+* Generated plans/intermediate results
+
+### Key Principle
+
+> **Context available now ≠ permanent memory.**
+
+---
+
+## Slide 52 — Context vs Memory
+
+### Main Content
+
+### Context
+
+Information currently supplied or available to the model.
+
+```text
+Current task
+Files
+Instructions
+Tool results
+Conversation
+```
+
+### Memory
+
+Information retained for future interactions.
+
+```text
+Preferences
+Project knowledge
+Previous decisions
+Persistent state
+```
+
+### Mental Model
+
+```text
+Context
+= "What do I know for this task?"
+
+Memory
+= "What can I retain for later?"
+```
+
+---
+
+## Slide 53 — MCP
+
+# Model Context Protocol
+
+### Main Content
+
+MCP is an open protocol designed to connect AI applications with external tools and data sources.
+
+Conceptually:
+
+```text
+AI Application / Agent
+          │
+          │ MCP
+          ↓
+     MCP Server
+          │
+     ┌────┼────┐
+     ↓    ↓    ↓
+   Tools Resources Prompts
+     │
+     ↓
+External System
+```
+
+GitHub documents MCP as a way to extend Copilot with external tools and data sources; MCP servers can expose capabilities such as code execution, database queries, file access, and external API calls.
+
+---
+
+## Slide 54 — MCP Client vs MCP Server
+
+### MCP Client
+
+The AI application that connects to MCP servers.
+
+Examples conceptually:
+
+```text
+AI coding environment
+AI agent
+AI assistant
+```
+
+### MCP Server
+
+A component exposing capabilities to the AI client.
+
+Example:
+
+```text
+GitHub MCP Server
+Database MCP Server
+Jira MCP Server
+Documentation MCP Server
+Monitoring MCP Server
+```
+
+### Architecture
+
+```text
+                AI Agent
+                   │
+              MCP Client
+                   │
+          ┌────────┼────────┐
+          ↓        ↓        ↓
+       GitHub     Jira     Database
+       Server     Server    Server
+```
+
+---
+
+## Slide 55 — MCP Tools, Resources, Prompts
+
+### Main Content
+
+### Tools
+
+Actions the agent can perform.
+
+Examples:
+
+```text
+Create issue
+Query database
+Search repository
+Send request
+Run operation
+```
+
+### Resources
+
+Information the agent can retrieve.
+
+Examples:
+
+```text
+Documentation
+Database schema
+Project information
+System configuration
+```
+
+### Prompts
+
+Reusable interaction patterns or prompt templates exposed through the MCP ecosystem.
+
+### Mental Model
+
+```text
+Tools
+= Things AI can DO
+
+Resources
+= Things AI can READ
+
+Prompts
+= Reusable ways to interact
+```
+
+---
+
+## Slide 56 — MCP vs APIs
+
+### Main Content
+
+MCP does not replace APIs.
+
+```text
+Traditional Software
+
+Application
+    ↓
+API
+    ↓
+Service
+```
+
+MCP:
+
+```text
+AI Application
+    ↓
+MCP
+    ↓
+MCP Server
+    ↓
+API / Database / Tool
+```
+
+### Key Difference
+
+An API is primarily a general software integration interface.
+
+MCP provides a standardized way for AI applications to discover and interact with tools and context.
+
+---
+
+## Slide 57 — Agent + External Systems
+
+### Main Content
+
+Imagine an engineering environment:
+
+```text
+                  AI Agent
+                     │
+       ┌─────────────┼─────────────┐
+       ↓             ↓             ↓
+    GitHub          Jira          Docs
+       │             │             │
+       ↓             ↓             ↓
+     Code          Issues       Knowledge
+```
+
+The agent could potentially:
+
+```text
+Read issue
+    ↓
+Understand requirement
+    ↓
+Inspect repository
+    ↓
+Implement change
+    ↓
+Run tests
+    ↓
+Update issue / PR
+```
+
+### Important
+
+The more systems an agent can access, the more important **permissions, security, and governance** become.
+
+---
+
+## Slide 58 — Traditional Automation
+
+### Main Content
+
+Traditional automation is generally:
+
+```text
+Trigger
+  ↓
+Step 1
+  ↓
+Condition
+  ↓
+Step 2
+  ↓
+Condition
+  ↓
+Step 3
+```
+
+The developer defines the workflow.
+
+### Examples
+
+* CI pipeline
+* Shell script
+* Scheduled job
+* ETL workflow
+* Deployment script
+
+### Strength
+
+**Predictability**
+
+### Weakness
+
+**Limited adaptability**
+
+---
+
+## Slide 59 — Agentic Automation
+
+### Main Content
+
+Agentic automation:
+
+```text
+Goal
+ ↓
+Context
+ ↓
+Agent
+ ↓
+Determine actions
+ ↓
+Use tools
+ ↓
+Observe
+ ↓
+Adapt
+ ↓
+Complete
+```
+
+The developer defines:
+
+* Goal
+* Context
+* Constraints
+* Available tools
+* Policies
+
+The agent determines some intermediate steps.
+
+---
+
+## Slide 60 — Traditional Automation vs Agentic Automation
+
+|                  | Traditional Automation | Agentic Automation         |
+| ---------------- | ---------------------- | -------------------------- |
+| Workflow         | Fixed                  | Dynamic                    |
+| Logic            | Explicit               | Partially inferred         |
+| Predictability   | High                   | Lower                      |
+| Adaptability     | Lower                  | Higher                     |
+| Testing          | Easier                 | More complex               |
+| Autonomy         | Low                    | Higher                     |
+| Failure behavior | Predefined             | Can reason/adapt           |
+| Best for         | Stable workflows       | Variable/complex workflows |
+
+### Important Principle
+
+> **Use deterministic automation when the process is deterministic.**
+
+> **Use agents where reasoning and adaptation provide real value.**
+
+---
+
+# PART E — THE BIGGER PICTURE
+
+---
+
+## Slide 61 — Multi-Agent Development
+
+### Main Content
+
+Instead of one general-purpose agent:
+
+```text
+                Requirement
+                     ↓
+          Requirements Agent
+                     ↓
+          Architecture Agent
+                     ↓
+             Coding Agent
+                     ↓
+            Testing Agent
+                     ↓
+            Security Agent
+                     ↓
+             Review Agent
+```
+
+Each agent specializes in a particular responsibility.
+
+---
+
+## Slide 62 — Why Multiple Agents?
+
+### Advantages
+
+* Specialization
+* Separation of responsibilities
+* Independent analysis
+* Parallel work
+* Different perspectives
+* Reusable expertise
+
+### Risks
+
+* Conflicting recommendations
+* Coordination complexity
+* More token usage
+* More latency
+* More failure points
+* Difficult debugging
+* False confidence
+
+### Key Principle
+
+> **Specialization can improve quality, but complexity increases with every additional agent.**
+
+---
+
+## Slide 63 — Multi-Agent Example
+
+### Requirement
+
+> "Review a new payment feature."
+
+```text
+                Payment Feature
+                       ↓
+              ┌────────┴────────┐
+              ↓                 ↓
+       Architecture         Security
+          Agent                Agent
+              ↓                 ↓
+              └────────┬────────┘
+                       ↓
+                  Testing Agent
+                       ↓
+                  Review Agent
+```
+
+### Final Decision
+
+Human reviews the combined result.
+
+### Important
+
+Agents should not simply trust other agents.
+
+> **Independent verification is still necessary.**
+
+---
+
+## Slide 64 — Human-in-the-Loop
+
+### Main Content
+
+Human actively participates in the workflow.
+
+```text
+Human
+ ↓
+Agent
+ ↓
+Human Review
+ ↓
+Agent
+ ↓
+Human Approval
+ ↓
+Action
+```
+
+### Good For
+
+* Production deployment
+* Database changes
+* Security-sensitive changes
+* Architecture decisions
+* Financial operations
+* Destructive actions
+
+### Philosophy
+
+> **AI proposes/executes; human remains actively involved.**
+
+---
+
+## Slide 65 — Human-on-the-Loop
+
+### Main Content
+
+Human supervises the system rather than approving every small step.
+
+```text
+Human
+  │
+  │ Goal + Constraints
+  ↓
+Agent
+  ↓
+  ↓
+  ↓
+Result
+  ↓
+Human reviews
+```
+
+### Good For
+
+* Routine refactoring
+* Documentation
+* Test generation
+* Low-risk maintenance
+* Repetitive development tasks
+
+### Philosophy
+
+> **Human monitors the agent rather than controlling every action.**
+
+---
+
+## Slide 66 — Autonomous Development
+
+### Main Content
+
+Conceptually:
+
+```text
+Requirement
+    ↓
+Agent
+    ↓
+Plan
+    ↓
+Implement
+    ↓
+Test
+    ↓
+Fix
+    ↓
+Review
+    ↓
+Deploy
+```
+
+### Potential Benefit
+
+Very low human intervention.
+
+### Major Risks
+
+```text
+Incorrect assumptions
+Security
+Permissions
+Reliability
+Accountability
+Unexpected changes
+Cost
+Privacy
+```
+
+### Key Principle
+
+> **The higher the autonomy, the stronger the controls must be.**
+
+---
+
+## Slide 67 — Autonomy Is a Spectrum
+
+### Main Content
+
+```text
+Low Autonomy
+     │
+     ↓
+Code Completion
+     ↓
+Chat / Ask
+     ↓
+Plan
+     ↓
+Interactive Agent
+     ↓
+Supervised Agent
+     ↓
+Highly Autonomous Agent
+     ↓
+Fully Autonomous Workflow
+     │
+High Autonomy
+```
+
+### Important
+
+There is no requirement that every task should use maximum autonomy.
+
+> **Choose autonomy according to risk.**
+
+---
+
+## Slide 68 — Model vs Agent vs Skill vs Instruction vs Tool
+
+### Main Content
+
+This is one of the most important conceptual slides.
+
+| Component   | Simple Analogy | Technical Role                              |
+| ----------- | -------------- | ------------------------------------------- |
+| Model       | Brain          | Generates/reasons over information          |
+| Agent       | Worker         | Coordinates reasoning, actions and workflow |
+| Skill       | Expertise      | Reusable procedure/capability               |
+| Instruction | Rules          | Behavioral constraints                      |
+| Tool        | Hands          | Performs external actions                   |
+| Context     | Environment    | Information available to the model          |
+| Memory      | Experience     | Persisted state/knowledge where supported   |
+
+---
+
+## Slide 69 — Where Does the Intelligence Come From?
+
+### Main Content
+
+If we create:
+
+```text
+MyDeveloperAgent
+MyTestingSkill
+MySecuritySkill
+```
+
+Where does the actual intelligence come from?
+
+Typically:
+
+```text
+                 MODEL
+          GPT / Claude / etc.
+                    │
+                    ↓
+                  AGENT
+                    │
+        ┌───────────┼───────────┐
+        ↓           ↓           ↓
+   Instructions   Skills       Tools
+                    │
+                    ↓
+                 Context
+                    │
+                    ↓
+                Environment
+```
+
+### Important
+
+Creating a custom agent does **not** mean creating a new foundation model.
+
+The custom agent usually configures how an existing model is used.
+
+### Key Idea
+
+> **The model supplies general reasoning capability.**
+
+> **The agent supplies the role, workflow, tools, and constraints.**
+
+---
+
+## Slide 70 — The "AI Engineer" Analogy
+
+### Main Content
+
+Imagine hiring an engineer.
+
+```text
+Model
+= Brain / general intelligence
+
+Agent
+= Job role
+
+Skill
+= Professional expertise/procedure
+
+Instruction
+= Company rules
+
+Tools
+= Laptop, terminal, Git, database access
+
+Context
+= Project information
+
+Memory
+= Previous knowledge/state
+
+Guardrails
+= Company permissions/policies
+```
+
+### Example
+
+A Security Agent:
+
+```text
+Model
+   +
+Security Agent Role
+   +
+Security Skills
+   +
+Security Instructions
+   +
+Repository Context
+   +
+Security Tools
+```
+
+Produces a **specialized engineering capability**.
+
+---
+
+## Slide 71 — Modern Agent Architecture
+
+### Main Content
+
+```text
+                         USER
+                          │
+                    Goal + Constraints
+                          ↓
+                    ┌───────────┐
+                    │   AGENT   │
+                    └─────┬─────┘
+                          │
+              ┌───────────┼───────────┐
+              ↓           ↓           ↓
+           Context   Instructions   Skills
+              │           │           │
+              └───────────┼───────────┘
+                          ↓
+                        MODEL
+                          │
+                    Tool Calling
+                          │
+              ┌───────────┼───────────┐
+              ↓           ↓           ↓
+            Files       Terminal      APIs
+              │           │           │
+              └───────────┼───────────┘
+                          ↓
+                     Environment
+                          │
+                       Feedback
+                          │
+                          └──────→ Agent
+```
+
+### Core Formula
+
+> **Agentic capability = Model + Context + Instructions + Skills + Tools + State + Feedback**
+
+---
+
+## Slide 72 — Evaluation
+
+### Main Content
+
+A major challenge:
+
+> How do we know an AI agent actually performed well?
+
+Not simply:
+
+> "The output looks good."
+
+We need measurable criteria:
+
+```text
+Correctness
+Task completion
+Test results
+Regression rate
+Security
+Code quality
+Consistency
+Cost
+Latency
+Tool efficiency
+```
+
+### Example
+
+Instead of:
+
+> "The agent generated a good feature."
+
+Ask:
+
+> "Did the feature satisfy the acceptance criteria and pass the required verification?"
+
+---
+
+## Slide 73 — AI-Generated Code Quality
+
+### Main Content
+
+AI-generated code should be evaluated like human-written code.
+
+Check:
+
+```text
+Correctness
+Readability
+Architecture
+Security
+Performance
+Error handling
+Test coverage
+Maintainability
+Dependencies
+Compatibility
+```
+
+### Key Principle
+
+> **AI-generated code is still production code.**
+
+It does not receive a lower quality standard simply because AI produced it.
+
+---
+
+## Slide 74 — Guardrails
+
+### Main Content
+
+Guardrails define what an agent is allowed to do.
+
+Example:
+
+```text
+Allowed:
+✓ Read source code
+✓ Modify application code
+✓ Run tests
+✓ Run local builds
+
+Restricted:
+⚠ Modify database schema
+⚠ Change infrastructure
+⚠ Push directly to protected branches
+
+Forbidden:
+✗ Expose secrets
+✗ Delete production data
+✗ Deploy without approval
+```
+
+### Key Principle
+
+> **Autonomy without boundaries is risk.**
+
+---
+
+## Slide 75 — Permissions
+
+### Main Content
+
+An agent should have only the permissions it needs.
+
+Principle:
+
+> **Least privilege**
+
+Example:
+
+```text
+Coding Agent
+    ↓
+Read repository
+Modify working tree
+Run tests
+
+Not automatically:
+    ↓
+Production database
+Production server
+Cloud administrator
+Secret store
+```
+
+### Why?
+
+If an agent makes a mistake, its permissions determine the possible impact.
+
+---
+
+## Slide 76 — Security and Privacy
+
+### Main Content
+
+Agentic development introduces new security questions:
+
+### Data
+
+* What source code can the model access?
+* Are secrets exposed?
+* Is sensitive information included in context?
+
+### Tools
+
+* What can the agent execute?
+* Can it access external systems?
+* Can it modify data?
+
+### Identity
+
+* Whose credentials does the agent use?
+* What permissions does it have?
+
+### Governance
+
+* Can actions be audited?
+* Can changes be traced?
+
+### Key Principle
+
+> **The more powerful the agent, the more important security architecture becomes.**
+
+---
+
+## Slide 77 — Observability
+
+### Main Content
+
+For agentic systems, we increasingly need to know:
+
+```text
+What did the agent do?
+
+Which tools did it call?
+
+Which files did it inspect?
+
+Which files did it modify?
+
+How many iterations occurred?
+
+What failed?
+
+Why did it continue?
+
+What was the final result?
+
+How much time/cost was used?
+```
+
+### Key Idea
+
+Traditional application observability:
+
+> "What did the software do?"
+
+Agent observability additionally asks:
+
+> **"What did the agent do while trying to make the software change?"**
+
+---
+
+## Slide 78 — Agent Reliability
+
+### Main Content
+
+A reliable agentic system needs:
+
+```text
+Good Context
+      +
+Clear Instructions
+      +
+Appropriate Tools
+      +
+Verification
+      +
+Tests
+      +
+Guardrails
+      +
+Observability
+      +
+Human Oversight
+```
+
+### Reliability Is Not Just Model Intelligence
+
+A highly capable model can still produce an unreliable system if:
+
+* Context is poor
+* Tools are unsafe
+* Requirements are ambiguous
+* Verification is missing
+* Permissions are excessive
+
+---
+
+## Slide 79 — Developer Skills Are Changing
+
+### Main Content
+
+### Skills that remain essential
+
+```text
+Requirements Analysis
+Architecture
+System Design
+Coding
+Testing
+Debugging
+Security
+Git
+CI/CD
+Code Review
+Business Understanding
+```
+
+### New skills
+
+```text
+Prompt Engineering
+Context Engineering
+Agent Design
+Skill Design
+Tool Selection
+AI Output Verification
+AI Evaluation
+Agent Governance
+```
+
+### Key Message
+
+> **AI changes the developer's workflow, not the need for engineering judgment.**
+
+---
+
+## Slide 80 — The Developer's Role Is Evolving
+
+### Traditional
+
+```text
+Developer
+    ↓
+Write Code
+    ↓
+Test
+    ↓
+Debug
+```
+
+### Agentic
+
+```text
+Developer
+    ↓
+Define Goal
+    ↓
+Provide Context
+    ↓
+Define Constraints
+    ↓
+Select/Configure Agent
+    ↓
+Direct
+    ↓
+Review
+    ↓
+Verify
+    ↓
+Approve
+```
+
+### New emphasis
+
+The developer increasingly acts as:
+
+> **Architect + Director + Reviewer + Validator**
+
+---
+
+## Slide 81 — What Does NOT Change?
+
+### Main Content
+
+AI does not remove the need for:
+
+* Correct requirements
+* Good architecture
+* Security
+* Testing
+* Debugging
+* Code review
+* Git
+* CI/CD
+* Business knowledge
+* Accountability
+
+### Strong Statement
+
+> **AI can generate code. It cannot automatically make the requirement correct.**
+
+### Another Important Statement
+
+> **The faster we generate code, the more important verification becomes.**
+
+---
+
+## Slide 82 — What Is Agentic Software Development?
+
+### Main Content
+
+### Simple Definition
+
+> **Agentic Software Development is a development approach where AI agents perform multi-step software engineering tasks using reasoning, context, tools, instructions, and feedback under human-defined goals and constraints.**
+
+### Short Presentation Version
+
+> **Give AI a goal, context, constraints, and tools — then allow it to perform and verify the work.**
+
+---
+
+## Slide 83 — The Complete Mental Model
+
+### Main Content
+
+```text
+                       HUMAN
+                         │
+                 Goal + Constraints
+                         ↓
+                       AGENT
+                         │
+          ┌──────────────┼──────────────┐
+          ↓              ↓              ↓
+       CONTEXT      INSTRUCTIONS      SKILLS
+          │              │              │
+          └──────────────┼──────────────┘
+                         ↓
+                       MODEL
+                         │
+                         ↓
+                       TOOLS
+                         │
+                         ↓
+                    ENVIRONMENT
+                         │
+                         ↓
+                      FEEDBACK
+                         │
+                         └──────→ ITERATE
+```
+
+### The entire presentation can be summarized by this architecture.
+
+---
+
+## Slide 84 — The Agentic Development Mindset
+
+### Main Content
+
+Traditional mindset:
+
+> "How do I write this code?"
+
+AI-assisted mindset:
+
+> "How can AI help me write this code?"
+
+Agentic mindset:
+
+> "What part of this engineering task can I safely delegate to an AI agent?"
+
+And then:
+
+```text
+What should AI do?
+What should humans do?
+What context does AI need?
+What tools should it have?
+What permissions should it have?
+How will we verify the result?
+```
+
+---
+
+## Slide 85 — The Future of Software Development
+
+### Main Content
+
+The likely direction is not:
+
+> Humans disappear and AI writes everything.
+
+A more realistic direction is:
+
+```text
+Human
+   ↓
+Goals
+   ↓
+Architecture
+   ↓
+Constraints
+   ↓
+AI Agents
+   ↓
+Implementation
+   ↓
+Testing
+   ↓
+Verification
+   ↓
+Human Judgment
+```
+
+### Evolution
+
+```text
+AI writes code
+       ↓
+AI understands code
+       ↓
+AI modifies code
+       ↓
+AI performs development tasks
+       ↓
+AI coordinates engineering workflows
+       ↓
+Human-directed AI software engineering
+```
+
+---
+
+## Slide 86 — Final Takeaways
+
+### 1. AI-Assisted ≠ Agentic
+
+> AI assistance helps generate, explain, or modify.
+
+> Agentic systems can **reason, act, verify, and iterate**.
+
+### 2. The Model Is Only One Part
+
+```text
+Model
++ Agent
++ Context
++ Instructions
++ Skills
++ Tools
++ State
++ Guardrails
+```
+
+### 3. Context Is Critical
+
+> Better context → better decisions.
+
+### 4. Tools Create Action
+
+> Without tools, AI mainly provides information.
+
+> With tools, AI can interact with the development environment.
+
+### 5. Autonomy Must Be Controlled
+
+> More autonomy requires stronger verification, permissions, security, and observability.
+
+### 6. Developers Are Not Becoming Irrelevant
+
+The role is changing from:
+
+> **Writing every instruction and every line**
+
+toward:
+
+> **Designing, directing, reviewing, verifying, and controlling AI-powered software development.**
+
+---
+
+# OPTIONAL FINAL SLIDE — One Sentence
+
+## Agentic Software Development
+
+> **Software development where humans define goals, constraints, and quality expectations while AI agents use models, context, skills, instructions, and tools to perform, verify, and iterate on engineering tasks.**
+
+### Final Mental Model
+
+```text
+Human defines WHAT and WHY
+             ↓
+Agent determines HOW
+             ↓
+Tools enable ACTION
+             ↓
+Feedback enables ITERATION
+             ↓
+Human ensures CORRECTNESS
+```
+
+**The future is not simply AI writing more code.**
+
+**The future is AI participating in more of the software engineering workflow.**
+--------------------------------------------------------------
+
+Theme color will be as follows:
+0d1b2a
+1b263b
+415a77
+778da9
+e0e1dd
+
+Use these color appropiately.
+-------------------------------------------------------------------------------
+And be the design as professional.
